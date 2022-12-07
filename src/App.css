@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+
+* {
+  font-family: "Cairo";
+}
+html {
+  direction: rtl;
+}
+
+.App {
+  text-align: center;
+  color: #306482;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.game {
+  margin: 30px auto;
+}
+.btn {
+  width: 30%;
+  margin: 10px;
+}
+.equation {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.text {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
